@@ -1,5 +1,5 @@
 from django.urls import path, include
-from instagram.views import PostLikeToggle, PostLikeAPIToggle
+from instagramclone.views import PostLikeToggle, PostLikeAPIToggle
 from . import views
 
 urlpatterns = [

@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'crispy_forms',
     'instagramclone',
-    'bootstrap3'
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [
@@ -70,8 +70,12 @@ TEMPLATES = [
         },
     },
 ]
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 WSGI_APPLICATION = 'instagram.wsgi.application'
+LOGIN_REDIRECT_URL = 'index'
+
+LOGOUT_REDIRECT_URL = 'login'
 
 
 # Database
