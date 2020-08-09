@@ -19,6 +19,7 @@
                         <img src="{{image.image.url}}" style="" class="card-img" width="100%"/>
                     </div></a>
                 </div>
+                <span style="margin-left: 2%;"><strong>{{image.user.user.username|title}}:</strong> {{image.caption}}</span>
                 <div class="iconic ml-2">
                     <button class="btn btn-sm" type="submit" name="image_id" value="{{image.id}}">
                         <a href="{% url 'comment' image.id %}"><i class="far fa-heart hearticon mx-auto"
