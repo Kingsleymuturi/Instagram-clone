@@ -10,7 +10,6 @@
     }
 
 }
-
 h1{
     color:green;
 }
@@ -48,6 +47,14 @@ h1{
     color:black;
     text-align:center;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+ }
 .hearticon{
     color:black;
     font-size:30px;
